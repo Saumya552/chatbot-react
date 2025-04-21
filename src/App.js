@@ -48,8 +48,7 @@ function App() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization:
-            "Bearer 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",
+          Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
         },
         body: JSON.stringify({
           model: "mistralai/mistral-7b-instruct",
