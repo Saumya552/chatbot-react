@@ -49,7 +49,7 @@ function App() {
         headers: {
           "Content-Type": "application/json",
           Authorization:
-            "Bearer sk-or-v1-5d*****",
+            "Bearer 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",
         },
         body: JSON.stringify({
           model: "mistralai/mistral-7b-instruct",
